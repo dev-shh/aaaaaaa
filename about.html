@@ -1,291 +1,167 @@
 <!DOCTYPE html>
-<html lang="sk">
-<head>
-    <!--====== Required meta tags ======-->
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!--====== Title ======-->
-    <title>lítiové disky</title>
-    <!--====== Favicon Icon ======-->
-    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/png">
-    <!--====== Bootstrap css ======-->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <!--====== Fontawesome css ======-->
-    <link rel="stylesheet" href="assets/fonts/fontawesome/css/all.css">
-    <!--====== Fontawesome css ======-->
-    <!--====== Default css ======-->
-    <link rel="stylesheet" href="assets/css/default.css">
-    <!--====== Style css ======-->
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
+<html lang="de">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Scateboard</title>
+        <link rel="apple-touch-icon" sizes="57x57" href="img//apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="img//apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="img//apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="img//apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="img/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media.css">
+    </head>
 
 <body>
-    <!--====== Start Header ======-->
-    <header class="header-area header-area-v2">
-        <div class="header-top">
-            <div class="custom-container">
-                <div class="row align-items-center">
-                    <div class="col-lg-3">
-                        <div class="top-left">
-                            <a href="index.html" class="logo"><img src="assets/images/logo.png" alt="logo"></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-9">
-                        <div class="top-middle">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="info-box">
-                                        <i class="fal fa-map-marker-alt"></i>
-                                        <span>Adresu</span>
-                                        <h5>Porsche Slovakia, s.r.o.
-                                            úsek Servis technika
-                                            Vajnorská 160
-                                            831 04 Bratislava</h5>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="info-box">
-                                        <i class="fal fa-clock"></i>
-                                        <span>Rozvrh</span>
-                                        <h5>Každý deň, 08 hod - 16:30 hod</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <header class="header">
+        <div class="container header__container">
+            <a href="#" class="logo"><img src="img/logo.png" alt=""></a>
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li><a href="index.html">Hause</a></li>
+                    <li><a href="catalog.html" target="_blank">Katalog</a></li>
+                    <li><a href="about.html" target="_blank">Über uns</a></li>
+                    <li><a href="contacts.html" target="_blank">Kontakte</a></li>
+                </ul>
+            </nav>
+            <a href="tel:+0412156605" class="header__phone">
+                +041 21 566 05
+            </a>
+            <button class="burger"><span></span><span></span><span></span></button>
         </div>
-        <div class="header-navigation red-bg">
-            <div class="custom-container">
-                <div class="nav-container d-flex align-items-center justify-content-between">
-                    <!-- site logo -->
-                    <div class="nav-menu">
-                        <!-- Navbar Close Icon -->
-                        <div class="navbar-close">
-                            <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
-                        </div>
-                        <!-- nav-menu -->
-                        <nav class="main-menu">
-                            <ul>
-                                <li class="menu-item active"><a href="index.html">Hlavná stránka</a>
-                                </li>
-                                <li class="menu-item"><a href="about.html" target="_blank">o nás</a></li>
-                                <li class="menu-item menu-item-has-children"><a href="catalog.html" target="_blank">katalóg</a>
-                                </li>
-                                <li class="menu-item menu-item-has-children"><a href="contact.html" target="_blank">Kontakt</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </div>
     </header>
-
     <section class="about">
         <div class="container">
-            <div class="about__descr">
-                <h2 class="title">o nás</h2>
-                <p class="about__text">Stránka bola spustená v roku 2021. Od začiatku bolo hlavným cieľom ponúknuť našim
-                    zákazníkom čo najširší sortiment autodiskov a rozvoj internetových technológií umožnil maximálne
-                    zjednodušiť a zrýchliť proces.
-                    Spoločnosť rýchlo rástla a dnes, keď zastávame jednu z vedúcich pozícií na tomto trhu, nestojíme na
-                    mieste. Projekt je založený na najmodernejších informačných technológiách, vývoji vlastného
-                    softvéru, analytických a štatistických informáciách na trhu nahromadených v priebehu rokov, vysoko
-                    kvalifikovanom tíme - robíme všetko pre to, aby ste boli s našou prácou spokojní.
-                    Dnes našim klientom ponúkame:
-                    Rozsiahly online katalóg diskov pre autá od rôznych výrobcov.
-                    Získanie úplných informácií o časti
-                    Obrovský sortiment
-                    Naše cenníky obsahujú množstvo položiek originálnych aj neoriginálnych diskov a príslušenstva od
-                    1200 popredných svetových výrobcov.
-                    Spolupracujeme s viac ako 300 dodávateľmi z Európy
-                    Široká sieť našich zastúpení po celom Slovensku
-                    Pri spolupráci s nami a našimi partnermi si môžete byť vždy istí kompetentným a zdvorilým servisom,
-                    rýchlosťou a precíznosťou prevedenia, vysokou kvalitou produktov. Budeme radi, ak Vás uvidíme medzi
-                    našimi klientmi! Najvyššia kvalita, bezpečnosť a moderný dizajn. Pozrite si našu širokú ponuku
-                    kolies, ktoré sú optimálne prispôsobené pre váš konkrétny model vozidla. Upozorňujeme, že disky pre všetky kategórie ponúkame za rozumné ceny, ktoré sa výrazne líšia od cien iných predajní. Z ďalších nami ponúkaných výhod možno spomenúť aj kvalitu dielov, ktoré pochádzajú priamo od výrobcov, autorizovaných predajcov, centrálnych skladov.
+            <div class="about__inner">
+                <div class="about__wrap">
+                    <h2 class="about__title">Über uns</h2>
+                    <p class="about__text">
+                        Die Website-Schaufenster existiert im 2020-Netzwerk. Auf der Website können Sie sich hochwertige
+                        Skateboards ansehen. Wir bemühen uns, Produkte von höchster Qualität zu zeigen.
+                        Die Website-Schaufenster ist vollständig im Besitz von Skateboardern und wird von ihnen
+                        betrieben, die über umfassende Kenntnisse und Erfahrungen im Einzelhandel und Skateboarding
+                        verfügen. Wir sind sehr stolz auf unsere Dienstleistungen für unsere Kunden und Skateboarder.
+                    </p>
+                </div>
+                <div class="about__wrap">
+                    <h2 class="about__title">beste skateboards</h2>
+                    <p class="about__text">
+                        Unsere Mission ist es, deine erste Skateboard-Adresse zu sein - jeden Tag, egal zu welcher Zeit
+                        und wo immer du bist! Wir bieten Ihnen den besten Service, um die Produkte zu sehen. Ob
+                        unterwegs auf dem Smartphone oder zu Hause auf dem Tablet oder Laptop: Auf der
+                        Website-Schaufenster können Sie sich bequem und rund um die Uhr Skateboards, Schuhe und
+                        Streetwear anschauen. Unser Ziel ist es, dir mit unserer Erfahrung und unserem Wissen
+                        bestmöglich zur Seite zu stehen und dir bei der Suche nach deinem Skateboard zu helfen.
+                    </p>
+                </div>
+                <div class="about__wrap">
+                    <h2 class="about__title">Über das Produkt</h2>
+                    <p class="about__text">
+                        Das Sortiment der Schaufenster-Site wird ständig aktualisiert, sodass der Käufer sich aus den
+                        frischesten und relevantesten Angeboten über das Produkt informieren kann. Die Marken in unseren
+                        virtuellen Regalen sind bei Skateboardern jeden Alters und jeder Könnensstufe äußerst beliebt.
 
-                    Ak porovnáte naše ceny s inými stránkami s ponukou automobilov, uvidíte, že celý sortiment ponúkame za výrazne nižšie ceny. V prípade akýchkoľvek otázok ohľadom produktu nám neváhajte zavolať. Sme vždy pripravení pomôcť! Prehliadajte si disky online a užívajte si našu výnimočnú službu. </p>
+                        Skateboarding ist ein komplexer und technischer Sport, der die richtige Auswahl an hochwertigen
+                        Komponenten (Board, Rollen, Aufhängungen, Lager) erfordert. Wenn Sie also Anfänger sind und
+                        nicht wissen, wo Sie anfangen sollen, leben wir Skateboarding seit mehr als ein Dutzend Jahre,
+                        wird Ihnen bei der Wahl helfen.
+                    </p>
+                </div>
+                <div class="about__wrap">
+                    <h2 class="about__title">Wie wählt man ein Skateboard aus?</h2>
+                    <p class="about__text">
+                        Bei der Auswahl deines ersten Skateboards ist es wichtig, keinen Fehler zu machen. Das Board muss sicher, bruch- und sturzsicher sein. Wählen Sie bekannte Marken: Im Sortiment beliebter Hersteller finden Sie eine schöne und hochwertige Version eines Skateboards. Bei der Auswahl eines Skates sollten Sie auf Durchmesser und Steifigkeit achten. Der Durchmesser der Räder beeinflusst die Beschleunigung und Manövrierfähigkeit bei der Ausführung von Tricks. Die Größe kann von 50 bis 75 mm betragen. Das Wichtigste bei der Auswahl eines Skateboards ist die Breite des Decks, nicht seine Länge. Die Boards variieren in der Breite von 7,5" bis 8,25". Die erforderliche Weite hängt von Körpergröße, Schuhgröße, Fahrstil und persönlichen Vorlieben ab.
+
+                        Je breiter das Board, desto stabiler ist es und desto mehr Geschwindigkeit kann es entwickeln. Der schmale ist nicht so schnell, aber wendiger. Wenn Sie ein Board wählen, das zu breit für Sie ist, ist beim Manövrieren mehr Kraft erforderlich, was das Fahren und die Ausführung von Tricks erschweren kann. Und im Gegenteil, auf einer zu engen Fläche gibt es Probleme mit dem Ausgleich. Die meisten jugendlichen und erwachsenen Fahrer wählen Decks von 7,5 Zoll und breiter, je nach Körpertyp und Schuhgröße. Für größere Skater ist ein breiteres Board vorzuziehen.  Je größer die Räder, desto höher die Geschwindigkeit, die kleineren sind am besten für technisches Fahren oder Straßenfahrten geeignet. Für Anfänger und diejenigen, die ein Skateboard als täglichen Transportmittel verwenden, ist es besser, ein Board mit großen Rädern zu wählen, das Geschwindigkeit und perfekte Balance bietet. 
+                    </p>
+                </div>
+
+
             </div>
         </div>
     </section>
-
-    <section class="testimonial-area-v2 light-bg pt-70 pb-40">
+    <footer class="footer">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <div class="section-title text-center mb-50">
-                        <h2>Recenzie</h2>
-                        <p>naši klienti zdieľajú svoje dojmy</p>
-                    </div>
+            <div class="footer__inner">
+                <div class="footer__address">
+                    Route Cantonale 93a, 1025 St Sulpice - Suisse
                 </div>
-            </div>
-            <div class="row testimonial-slide-two">
-                <div class="col-lg-4">
-                    <div class="testimonial-item mb-40">
-                        <div class="testimonial-thumb-title">
-                            <div class="thumb">
-                                <img src="assets/images/thumb-1.jpg" alt="">
-                            </div>
-                            <div class="title">
-                                <h5>Jozef Kováč</h5>
-                            </div>
-                        </div>
-                        <div class="testimonial-content">
-                            <p>Dlho mi trvalo, kým som vybral disky, aby zodpovedali týmto vlastnostiam a vyzerali ako
-                                auto.Kúpil som ho pre lacný,normálnu farbu,dobre vyvážený.Priemer 17,ale nevyzerajú
-                                nič.Páči sa mi to.</p>
-                            <ul class="rating">
-                                <li class="star"><i class="fas fa-star"></i></li>
-                                <li class="star"><i class="fas fa-star"></i></li>
-                                <li class="star"><i class="fas fa-star"></i></li>
-                                <li class="star"><i class="fas fa-star"></i></li>
-                                <li class="star"><i class="fas fa-star"></i></li>
-                            </ul>
-                            <i class="far fa-quote-right quote-icon"></i>
-                        </div>
+                <div class="footer__wrap">
+                    <div class="footer__socials">
+                        <span class="social-fb">
+                            <svg width="12" height="19" viewBox="0 0 12 19" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M1.2718 10.1194H3.46412V18.6935C3.46412 18.8628 3.60851 19 3.7867 19H7.50386C7.68206 19 7.82644 18.8628 7.82644 18.6935V10.1598H10.3467C10.5106 10.1598 10.6484 10.043 10.6672 9.88834L11.0499 6.73176C11.0604 6.64491 11.0315 6.55794 10.9703 6.49279C10.9091 6.42758 10.8215 6.39025 10.7295 6.39025H7.82657V4.41155C7.82657 3.81508 8.16464 3.51261 8.83148 3.51261C8.92651 3.51261 10.7295 3.51261 10.7295 3.51261C10.9077 3.51261 11.0521 3.37538 11.0521 3.20616V0.308719C11.0521 0.139435 10.9077 0.00226774 10.7295 0.00226774H8.11373C8.09528 0.00140968 8.05431 0 7.99393 0C7.54006 0 5.96244 0.0846419 4.71625 1.17377C3.33548 2.3807 3.52741 3.8258 3.57328 4.07636V6.39019H1.2718C1.09361 6.39019 0.949219 6.52736 0.949219 6.69664V9.81289C0.949219 9.98217 1.09361 10.1194 1.2718 10.1194Z"
+                                    fill="#4267B2" />
+                            </svg>
+                        </span>
+                        <span class="social-yt">
+                            <svg width="20" height="16" viewBox="0 0 20 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M19.2205 2.17115C18.4985 1.31295 17.1656 0.962891 14.6201 0.962891H5.37974C2.77594 0.962891 1.42045 1.33554 0.701226 2.24921C0 3.14005 0 4.45263 0 6.26928V9.73179C0 13.2512 0.832 15.0381 5.37974 15.0381H14.6201C16.8276 15.0381 18.0508 14.7292 18.8422 13.9719C19.6537 13.1952 20 11.9271 20 9.73179V6.26928C20 4.35347 19.9457 3.03315 19.2205 2.17115ZM12.8401 8.47857L8.64406 10.6715C8.55026 10.7206 8.44768 10.7449 8.34523 10.7449C8.22923 10.7449 8.11348 10.7137 8.01097 10.6516C7.81793 10.5346 7.70006 10.3254 7.70006 10.0997V5.72786C7.70006 5.50257 7.81761 5.29354 8.01026 5.1765C8.20297 5.05947 8.44265 5.05147 8.64258 5.15534L12.8386 7.33418C13.0521 7.44502 13.1861 7.66541 13.1865 7.90586C13.1867 8.1465 13.0532 8.36721 12.8401 8.47857Z"
+                                    fill="#FF0000" />
+                            </svg>
+
+                        </span>
+                        <span class="social-insta">
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="18" height="18" fill="url(#paint0_linear)" />
+                                <path
+                                    d="M13.1275 0H4.87243C2.18573 0 0 2.18573 0 4.87243V13.1277C0 15.8142 2.18573 18 4.87243 18H13.1277C15.8142 18 18 15.8142 18 13.1277V4.87243C18 2.18573 15.8142 0 13.1275 0ZM8.99998 13.9217C6.28609 13.9217 4.07825 11.7139 4.07825 8.99998C4.07825 6.28609 6.28609 4.07825 8.99998 4.07825C11.7139 4.07825 13.9217 6.28609 13.9217 8.99998C13.9217 11.7139 11.7139 13.9217 8.99998 13.9217ZM14.0394 5.23896C13.2374 5.23896 12.5851 4.58665 12.5851 3.78465C12.5851 2.98265 13.2374 2.3302 14.0394 2.3302C14.8414 2.3302 15.4939 2.98265 15.4939 3.78465C15.4939 4.58665 14.8414 5.23896 14.0394 5.23896Z"
+                                    fill="url(#paint1_linear)" />
+                                <path
+                                    d="M9 5.625C7.1391 5.625 5.625 7.13899 5.625 9C5.625 10.8609 7.1391 12.375 9 12.375C10.861 12.375 12.375 10.8609 12.375 9C12.375 7.13899 10.861 5.625 9 5.625Z"
+                                    fill="url(#paint2_linear)" />
+                                <defs>
+                                    <linearGradient id="paint0_linear" x1="16" y1="0.999999" x2="0.999999" y2="16"
+                                        gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="white" />
+                                        <stop offset="1" stop-color="white" stop-opacity="0" />
+                                    </linearGradient>
+                                    <linearGradient id="paint1_linear" x1="15.5" y1="-4.47036e-07" x2="5.0664e-07"
+                                        y2="16.5" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#CA38A6" />
+                                        <stop offset="0.3125" stop-color="#E94868" />
+                                        <stop offset="0.646475" stop-color="#FF9148" />
+                                        <stop offset="0.974139" stop-color="#FFD854" />
+                                    </linearGradient>
+                                    <linearGradient id="paint2_linear" x1="11.5" y1="6" x2="6" y2="11.5"
+                                        gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#FF6941" />
+                                        <stop offset="1" stop-color="#FF6941" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </span>
                     </div>
+                    <a href="tel:+0412156605" class="footer__phone">+041 21 566 05</a>
                 </div>
-                <div class="col-lg-4">
-                    <div class="testimonial-item mb-40">
-                        <div class="testimonial-thumb-title">
-                            <div class="thumb">
-                                <img src="assets/images/thumb-2.jpg" alt="">
-                            </div>
-                            <div class="title">
-                                <h5>Ján Varga</h5>
-                            </div>
-                        </div>
-                        <div class="testimonial-content">
-                            <p>Disky sú kvalitné, krásne. Perfektne pasujú do auta. Do boxov som ešte nevletel, takže o
-                                sile nepoviem.</p>
-                            <ul class="rating">
-                                <li class="star"><i class="fas fa-star"></i></li>
-                                <li class="star"><i class="fas fa-star"></i></li>
-                                <li class="star"><i class="fas fa-star"></i></li>
-                                <li class="star"><i class="fas fa-star"></i></li>
-                                <li class="star"><i class="fas fa-star"></i></li>
-                            </ul>
-                            <i class="far fa-quote-right quote-icon"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="testimonial-item mb-40">
-                        <div class="testimonial-thumb-title">
-                            <div class="thumb">
-                                <img src="assets/images/thumb-3.jpg" alt="">
-                            </div>
-                            <div class="title">
-                                <h5>Ladislav Horváth</h5>
-                            </div>
-                        </div>
-                        <div class="testimonial-content">
-                            <p>Existujú veľkosti, v ktorých jednoducho neexistujú žiadne iné disky. Naživo vyzerajú
-                                lepšie ako na obrázku. Ľahko vyvážené. Konkrétne som to nekontroloval, ale po 4
-                                mesiacoch prevádzky nie sú takmer žiadne škrabance, škrabance.</p>
-                            <ul class="rating">
-                                <li class="star"><i class="fas fa-star"></i></li>
-                                <li class="star"><i class="fas fa-star"></i></li>
-                                <li class="star"><i class="fas fa-star"></i></li>
-                                <li class="star"><i class="fas fa-star"></i></li>
-                                <li class="star"><i class="fas fa-star"></i></li>
-                            </ul>
-                            <i class="far fa-quote-right quote-icon"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--====== End Testimonial Section ======-->
-   
-    <!--====== Start Newsletter Section ======-->
-    <section class="newsletter-section bg_cover pt-75 pb-80">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="newsletter-content text-center">
-                        <span class="span">ODOBERAŤ NOVINKY</span>
-                        <h2>Prihláste sa na odber našich noviniek</h2>
-                        <form>
-                            <div class="form_group">
-                                <input type="email" class="form_control" placeholder="zadajte svoju adresu" name="email"
-                                    required>
-                                <button class="main-btn">predplatiť</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--====== End Newsletter Section ======-->
-
-
-
-    <!--====== Start Features Section ======-->
-
-    <!--====== Start Footer ======-->
-    <footer class="footer-area black-bg">
-        <div class="container">
-            <div class="footer_widget pt-80 pb-65">
-                <div class="row">
-                    <div class="col-lg-7 col-md-6 col-sm-12">
-                        <div class="widget about-widget logo">
-                            <img src="assets/images/logo.png" alt="">
-                            <p>Stránka bola spustená v roku 2021. Od začiatku bolo hlavným cieľom ponúknuť našim
-                                zákazníkom čo najširší sortiment autodiskov a rozvoj internetových technológií umožnil maximálne
-                                zjednodušiť a zrýchliť proces.</p>
-                            <div class="social-box">
-                                <h5> Prihlás sa k nám</h5>
-                                <ul class="social-link">
-                                    <li><a><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a><i class="fab fa-twitter"></i></a></li>
-                                    <li><a><i class="fab fa-instagram"></i></a></li>
-                                    <li><a><i class="fab fa-youtube"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-5 col-md-6 col-sm-12">
-                        <div class="widget contact-widget">
-                            <h4 class="widget-title">kontakty</h4>
-                            <ul class="contact-info">
-                                <li>
-                                    <i class="fal fa-map-marker-alt"></i>
-                                    <p>Porsche Slovakia, s.r.o.
-                                        úsek Servis technika
-                                        Vajnorská 160
-                                        831 04 Bratislava</p>
-                                </li>
-                                <li>
-                                    <i class="fal fa-phone"></i>
-                                    <p><a href="tel:+421249262691">+421 2 49262 691</a></p>
-                                </li>
-                                <li>
-                                    <a href="terms.html">Podmienky používania</a>
-                                </li>
-                                <li>
-                                    <a href="policy.html">Ochrana súkromia</a>
-                                </li>
-
-                            </ul>
-                        </div>
-                    </div>
+                <div class="footer__links">
+                    <a href="policy.html">DATENSCHUTZERKLÄRUNG</a>
+                    <a href="terms.html">UNSERE AGB</a>
                 </div>
             </div>
         </div>
     </footer>
-    <!--====== End Footer ======-->
-    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
-    <!--====== Bootstrap js ======-->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!--====== Slick js ======-->
-    <script src="assets/js/main.js"></script>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>
